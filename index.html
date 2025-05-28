@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Amor! ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hearts"></div> <!-- Corações flutuando -->
+
+    <div class="container">
+        <h1 class="titulo">🎉 Feliz Aniversário, Meu Amor! 🎉</h1>
+        
+        <p id="mensagem" class="mensagem"></p> <!-- Máquina de escrever -->
+        
+        <div class="foto">
+            <img src="./imagens/foto1.jpeg" alt="Nossa foto">
+        </div>
+
+        <button onclick="mostrarMensagem()">Clique aqui para uma surpresa!</button>
+
+        <div id="surpresa" class="escondido">
+            <p>Você é a melhor parte da minha vida. Obrigado por existir. 💖</p>
+
+            <!-- Carrossel de fotos -->
+            <div class="carrossel">
+                <div class="slides">
+                    <img src="./imagens/foto2.jpeg" alt="Foto 1">
+                    <img src="./imagens/foto3.jpeg" alt="Foto 2">
+                    <img src="./imagens/foto4.jpeg" alt="Foto 3">
+                    <img src="./imagens/fotox.jpeg" alt="Foto 3">
+                    <img src="./imagens/foto5.jpeg" alt="Foto 3">
+                    <img src="./imagens/foto6.jpeg" alt="Foto 3">
+                    <img src="./imagens/foto7.jpeg" alt="Foto 3">
+                </div>
+            </div>
+
+            <div id="contadorAmor" class="contador"></div>
+        </div>
+    </div>
+
+    <audio id="musica" src="audio/musica.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
